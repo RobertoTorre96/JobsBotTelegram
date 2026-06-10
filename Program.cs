@@ -14,4 +14,13 @@ builder.Services.AddDbContext<JobsDbContext>(options =>
     options.UseSqlite("Data Source=jobs.db"));
 
 var host = builder.Build();
+
+
+using (var scope = host.Services.CreateScope()) {
+    var db = scope.ServiceProvider.GetRequiredService<JobsDbContext>();
+    db.Database.Migrate();
+}
+
+
+
 host.Run();
