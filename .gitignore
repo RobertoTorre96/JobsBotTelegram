@@ -1,0 +1,18 @@
+# Compilación
+bin/
+obj/
+
+# Base de datos SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Configuración local
+appsettings.Development.json
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Rider
+.idea/
