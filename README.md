@@ -20,7 +20,7 @@ El objetivo del proyecto es automatizar la búsqueda de oportunidades laborales,
 ## 📱 funcionamiento
 ![Mensaje Telegram](assets/start.png)
 ![Mensaje Telegram](assets/jobs.png)
-![Mensaje Telegram](assets/logs deploy.png)
+![Mensaje Telegram](assets/logsDeploy.png)
 
 
 
