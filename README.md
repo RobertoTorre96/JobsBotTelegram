@@ -17,6 +17,11 @@ El objetivo del proyecto es automatizar la búsqueda de oportunidades laborales,
 * Ejecución continua como Background Worker.
 * Contenerización con Docker para facilitar el despliegue.
 
+## 📱 funcionamiento
+![Mensaje Telegram](assets/start.png)
+
+
+
 ## 🏗️ Arquitectura
 
 ```text
